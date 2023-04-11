@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- FontAwesome JS -->
+  <script src="https://kit.fontawesome.com/8565664059.js" crossorigin="anonymous"></script>
+
+  <!-- Estilos CSS -->
+  <link id="theme-style" rel="stylesheet" href="./css/contacto.css">
+
+  <!-- Javascript -->
+  <script src="../js/index.js"></script>
+
+  <title>Contacto</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <div class="main-content-wrapper">
+      <div class="container-fluid">
+        <div class="resume-wrapper mx-auto rounded-2">
+          <div class="resume-header px-4 px-lg-5">
+            <div class="resume-profile-holder text-center">
+              <img class="resume-profile-pic rounded-circle" src="./assets/img/profile.jpg" alt="image">
+
+              <h2 class="resume-name text-uppercase">Jonatan Hernán Escobar</h2>
+              <div class="resume-role-title text-uppercase">Desing UX</div>
+              <div class="resume-contact mt-4">
+                <ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
+                  <a href="./index.html">
+                    <li class="list-inline-item me-md-3 me-lg-5"><i class="fa-solid fa-house me-6"></i></i></i>General
+                    </li>
+                  </a>
+                  <a href="./links/table.html">
+                    <li class="list-inline-item me-md-3 me-lg-5"><i
+                        class="fa-solid fa-briefcase me-6"></i></i>Experiencia</li>
+                  </a>
+                  <a href="./links/habilidades.html">
+                    <li class="list-inline-item me-lg-5"><i class="fa-solid fa-bookmark me-6"></i></i>Hablidades</li>
+                  </a>
+                  <a href="./links/proyectos.html">
+                    <li class="list-inline-item me-lg-5"><i
+                            class="fa-sharp fa-solid fa-laptop-code me-6"></i></i>Proyectos</li>
+                  <a href="./contacto.html">
+                    <li class="list-inline-item  me-lg-5"><i
+                        class="fa-solid fa-circle-exclamation me-6"></i></i>Contacto</li>
+                  </a>
+                </ul>
+              </div><!--//panel de botones-->
+            </div><!--//profile-holder-->
+          </div><!--//resume-header-->
+          <br>
+          <div class="content">
+            <div class="contact-wrapper animated bounceInUp">
+              <div class="contact-form">
+                <h3>Contacto</h3>
+                <form action="">
+                  <p>
+                    <label>Nombre</label>
+                    <input type="text" name="fullname" />
+                  </p>
+                  <p>
+                    <label>Apellido</label>
+                    <input type="text" name="fullname" />
+                  </p>
+                  <p>
+                    <label>Email</label>
+                    <input type="email" name="email" />
+                  </p>
+                  <p>
+                    <label>Número Tel</label>
+                    <input type="tel" name="phone" />
+                  </p>
+                  <p class="block">
+                    <label>Mensaje</label>
+                    <textarea name="message" rows="3"></textarea>
+                  </p>
+
+                  <p class="block">
+                    <a href="./links/enviar.html" class="btn btn-danger btn-sm active" aria-current="page">Enviar</a>
+                  </p>
+                </form>
+              </div>
+              <div class="contact-info">
+                <h4>Más Información</h4>
+                <ul>
+                  <a href="#">
+                    <li><i class="fas fa-map-marker-alt me-6"></i>Salta, Argentina.</li>
+                  </a>
+                  <a href="https://api.whatsapp.com/send?phone=543873435625" target="_blank" rel="noopener noreferrer">
+                    <li><i class="fas fa-phone me-6"></i> (54) 3873435625</li>
+                  </a>
+                  <a
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBVXlpJCWVZGnmMTpXlVdgWVBJGdsdflttcSBdnDbZZvzxSBTpzbSLNbQWwpCwwdFqpTm"  target="_blank" rel="noopener noreferrer">
+                    <li>
+                      <i class="fas fa-envelope-open-text me-6"></i>
+                      hernan.esc001@gmail.com
+                    </li>
+                  </a>
+                </ul>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d921.4876699772534!2d-63.79187625062956!3d-22.50603355636437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1681199390870!5m2!1ses!2sar"
+                  width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="text-center mt-5 mb-5">
+              <button class="btn btn-secondary" onclick="to_index()">Volver</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
